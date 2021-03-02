@@ -26,12 +26,13 @@ public class MultiplicationTable {
 		}
 
 		// Table from 11 to 20
-		
+		for (int i = 11; i <= 20; i++){
 		// complete code. write for loop for int i
-			System.out.println("*** Table of "+i + " ***");
+		     System.out.println("*** Table of "+i + " ***");
+		     for (int j=1; j<=10; j++) {
 			// complete code. write nested for loop for int j
-				System.out.println(i + "X" + j +" = " + i*j);
-		}
+			 System.out.println(i + "X" + j +" = " + i*j);
+		   }
 		}
 		
 		
