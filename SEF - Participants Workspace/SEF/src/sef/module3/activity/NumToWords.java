@@ -3,6 +3,8 @@
  */
 package sef.module3.activity;
 
+import activity.NumToWordsUsingMethod;
+
 /**
  * @author 
  *
@@ -13,8 +15,8 @@ public class NumToWords {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
-		
+
+
 				
 		int i = 8;
 		String numText = "";

@@ -15,14 +15,14 @@ public class NumToWordsUsingMethod {
 		public static void main(String[] args) {
 			// complete the code to print text value of 8, 9 and 10
 
-			//int i = 8;
 			printMyWord(8);
-			System.out.println("Name is " + printMyWord(i));
-		}
+			printMyWord(9);
+			printMyWord(10);
 
-		private static void printMyWord(int i) {
-			final String numText;
-			switch(i) {
+		}
+	private static void printMyWord(int i) {
+		final String numText;
+		switch(i) {
 			case 1:
 				numText = "ONE";break;
 			case 2:
@@ -45,10 +45,11 @@ public class NumToWordsUsingMethod {
 				numText = "TEN";break;
 			default:
 				numText = "NUMBER " + i;
-			}
-			System.out.println(numText);
-			
 		}
+		System.out.println(numText);
+
+	}
+
 
 
 		
